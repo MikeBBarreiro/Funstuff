@@ -14,7 +14,7 @@ body {
     position: relative;
     right: 8px;
 }
-.ww2cbp-af-header {
+.cbp-af-header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -30,7 +30,7 @@ body {
 	transition: height 0.3s;
 }
 
-.ww2color-overlay{
+.color-overlay{
     position: fixed;
 	top: 0;
 	left: 0;
@@ -44,7 +44,7 @@ body {
 	transition: height 0.3s;
 }
 
-.ww2cbp-af-header .ww2cbp-af-inner {
+.cbp-af-header .cbp-af-inner {
 	width: 90%;
 	max-width: 69em;
 	margin: 0 auto;
@@ -64,7 +64,7 @@ body {
     text-decoration: none;
 }
 
-.ww2cbp-af-header h1 {
+.cbp-af-header h1 {
 	text-transform: uppercase;
 	color: #333;
 	letter-spacing: 4px;
@@ -73,18 +73,18 @@ body {
 	float: left;
 }
 
-.ww2cbp-af-header nav {
+.cbp-af-header nav {
 	float: right;
 }
 
-.ww2cbp-af-header nav a {
+.cbp-af-header nav a {
 	color: #333;
 	font-weight: 700;
 	margin: 0 0 0 20px;
 	font-size: 1.4em;
 }
 
-.ww2cbp-af-header nav a:hover {
+.cbp-af-header nav a:hover {
 	color: #881210;
 }
 
@@ -152,13 +152,13 @@ body {
   }
 }
 
-.ww2cbp-af-header nav a {
+.cbp-af-header nav a {
   display: inline-block;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.ww2cbp-af-header nav a:hover, .ww2cbp-af-header nav a:focus, .ww2cbp-af-header nav a:active {
+.cbp-af-header nav a:hover, .cbp-af-header nav a:focus, .cbp-af-header nav a:active {
   -webkit-animation-name: wobble-vertical;
   animation-name: wobble-vertical;
   -webkit-animation-duration: 1s;
@@ -171,18 +171,18 @@ body {
 
 
 /* Transitions and class for reduced height */
-.ww2cbp-af-header h1,
-.ww2cbp-af-header nav a {
+.cbp-af-header h1,
+.cbp-af-header nav a {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
-.cbp-af-header.cbp-af-header-shrink{
+.cbp-af-header.ww2cbp-af-header-shrink{
 	height: 90px;
 }
 
-.cbp-af-header.cbp-af-header-shrink h1, .cbp-af-header.cbp-af-header-shrink nav a {
+.cbp-af-header.ww2cbp-af-header-shrink h1, .cbp-af-header.cbp-af-header-shrink nav a {
 	line-height: 90px;
 }
 
@@ -193,50 +193,50 @@ body {
 /* Example Media Queries */
 @media screen and (max-width: 55em) {
 	
-	.ww2cbp-af-header .ww2cbp-af-inner {
+	.cbp-af-header .cbp-af-inner {
 		width: 100%;
 	}
 
-	.ww2cbp-af-header h1,
-	.ww2cbp-af-header nav {
+	.cbp-af-header h1,
+	.cbp-af-header nav {
 		display: block;
 		margin: 0 auto;
 		text-align: center;
 		float: none;
 	}
 
-	.ww2cbp-af-header h1,
-	.ww2cbp-af-header nav a {
+	.cbp-af-header h1,
+	.cbp-af-header nav a {
 		line-height: 115px;
 	}
 
-	.ww2cbp-af-header nav a {
+	.cbp-af-header nav a {
 		margin: 0 10px;
 	}
 
-	.ww2cbp-af-header.ww2cbp-af-header-shrink h1,
-	.ww2cbp-af-header.ww2cbp-af-header-shrink nav a {
+	.cbp-af-header.cbp-af-header-shrink h1,
+	.cbp-af-header.cbp-af-header-shrink nav a {
 		line-height: 45px;
 	}
 
-	.ww2cbp-af-header.ww2cbp-af-header-shrink h1 {
+	.cbp-af-header.cbp-af-header-shrink h1 {
 		font-size: 2em;
 	}
 
-	.ww2cbp-af-header.ww2cbp-af-header-shrink nav a {
+	.cbp-af-header.cbp-af-header-shrink nav a {
 		font-size: 1em;
 	}
 }
 
 @media screen and (max-width: 32.25em) {
-	.ww2cbp-af-header nav a {
+	.cbp-af-header nav a {
 		font-size: 1em;
 	}
 }
 
 @media screen and (max-width: 24em) {
-	.ww2cbp-af-header nav a,
-	.ww2cbp-af-header.ww2cbp-af-header-shrink nav a {
+	.cbp-af-header nav a,
+	.cbp-af-header.cbp-af-header-shrink nav a {
 		line-height: 1;
 	}
 }
