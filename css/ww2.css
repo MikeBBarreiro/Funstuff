@@ -1,4 +1,18 @@
 body { 
-    ;
+   background-color: black;
 }
+.Nuke {
+    position: fixed;
+    top: 300px;
+    margin-left: 2px;
     
+    
+    
+}
+.leftdiv {
+    background-color:grey;
+    height: 1000px;
+    width: 50px;
+    position: relative;
+    right: 8px;
+}
