@@ -1,3 +1,4 @@
+/*http://cdn.superbwallpapers.com/wallpapers/games/call-of-duty-world-at-war-3836-1280x800.jpg*/
 body { 
    background-color: black;
 }
@@ -5,14 +6,237 @@ body {
     position: fixed;
     top: 300px;
     margin-left: 2px;
-    
-    
-    
 }
 .leftdiv {
     background-color:grey;
-    height: 1000px;
+    height: 1500px;
     width: 50px;
     position: relative;
     right: 8px;
+}
+.ww2cbp-af-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: RGBA(77, 124, 232, 0.5);
+    background-image: url(../Img/World_War_II_battles%202.jpg);
+    background-size: 100% 100%; 
+	z-index: 10000;
+	height: 230px;
+	overflow: hidden;
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+.ww2color-overlay{
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+    background: RGBA(77, 124, 232, 0.7); 
+    z-index: 10000;
+	height: 230px;
+	overflow: hidden;
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+.ww2cbp-af-header .ww2cbp-af-inner {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 1.875em;
+}
+
+.ww2cbp-af-header h1,
+.ww2cbp-af-header nav {
+	display: inline-block;
+	position: relative;
+}
+
+ /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
+.ww2cbp-af-header h1,
+.ww2cbp-af-header nav a {
+	line-height: 230px;
+    text-decoration: none;
+}
+
+.ww2cbp-af-header h1 {
+	text-transform: uppercase;
+	color: #333;
+	letter-spacing: 4px;
+	font-size: 4em;
+	margin: 0;
+	float: left;
+}
+
+.ww2cbp-af-header nav {
+	float: right;
+}
+
+.ww2cbp-af-header nav a {
+	color: #333;
+	font-weight: 700;
+	margin: 0 0 0 20px;
+	font-size: 1.4em;
+}
+
+.ww2cbp-af-header nav a:hover {
+	color: #881210;
+}
+
+@-webkit-keyframes wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.ww2cbp-af-header nav a {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.ww2cbp-af-header nav a:hover, .ww2cbp-af-header nav a:focus, .ww2cbp-af-header nav a:active {
+  -webkit-animation-name: wobble-vertical;
+  animation-name: wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+/* Transitions and class for reduced height */
+.ww2cbp-af-header h1,
+.ww2cbp-af-header nav a {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.cbp-af-header.cbp-af-header-shrink{
+	height: 90px;
+}
+
+.cbp-af-header.cbp-af-header-shrink h1, .cbp-af-header.cbp-af-header-shrink nav a {
+	line-height: 90px;
+}
+
+.cbp-af-header.cbp-af-header-shrink h1 {
+	font-size: 2em;
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 55em) {
+	
+	.ww2cbp-af-header .ww2cbp-af-inner {
+		width: 100%;
+	}
+
+	.ww2cbp-af-header h1,
+	.ww2cbp-af-header nav {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+	}
+
+	.ww2cbp-af-header h1,
+	.ww2cbp-af-header nav a {
+		line-height: 115px;
+	}
+
+	.ww2cbp-af-header nav a {
+		margin: 0 10px;
+	}
+
+	.ww2cbp-af-header.ww2cbp-af-header-shrink h1,
+	.ww2cbp-af-header.ww2cbp-af-header-shrink nav a {
+		line-height: 45px;
+	}
+
+	.ww2cbp-af-header.ww2cbp-af-header-shrink h1 {
+		font-size: 2em;
+	}
+
+	.ww2cbp-af-header.ww2cbp-af-header-shrink nav a {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 32.25em) {
+	.ww2cbp-af-header nav a {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 24em) {
+	.ww2cbp-af-header nav a,
+	.ww2cbp-af-header.ww2cbp-af-header-shrink nav a {
+		line-height: 1;
+	}
 }
