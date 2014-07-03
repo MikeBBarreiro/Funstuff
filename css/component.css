@@ -3,8 +3,24 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #f6f6f6;
+/*	background: RGBA(77, 124, 232, 0.5);*/
+    background-image: url(http://elearazi.files.wordpress.com/2014/02/japan-tsunami-sea.jpg);
+    background-size: 100% 100%;
 	z-index: 10000;
+	height: 230px;
+	overflow: hidden;
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+.color-overlay{
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+    background: RGBA(77, 124, 232, 0.7); 
+    z-index: 10000;
 	height: 230px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
@@ -29,6 +45,7 @@
 .cbp-af-header h1,
 .cbp-af-header nav a {
 	line-height: 230px;
+    text-decoration: none;
 }
 
 .cbp-af-header h1 {
@@ -45,7 +62,7 @@
 }
 
 .cbp-af-header nav a {
-	color: #aaa;
+	color: #FFFBF8;
 	font-weight: 700;
 	margin: 0 0 0 20px;
 	font-size: 1.4em;
@@ -63,7 +80,7 @@
 	transition: all 0.3s;
 }
 
-.cbp-af-header.cbp-af-header-shrink {
+.cbp-af-header.cbp-af-header-shrink{
 	height: 90px;
 }
 
