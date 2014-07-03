@@ -3,15 +3,25 @@
 body {
     background-color: #F44D4D;
 }
+p{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: -600px;
+    
+}
 .test {
-    height:700px;
+    height:1000px;
     width:50px;
     background-color: black;
+    margin-left: -8px;
 }
-.test2{
-    height: 400px;
-    width: 50px;
-    background-color: #444342;
+.Footer {
+    height: 5px;
+    width: 1280px;
+    background-color: black;
+    position: relative;
+    top: 185px;
+    right: 8px;
 }
 .fa.fa-child {
     color: white;
@@ -22,15 +32,16 @@ body {
 /*H1 welcome header*/
 .shadow {
     left: 500px;
-    top: -870px;
+    top: -750px;
     position: absolute;
+    font-family: "Lato"
 }
 .divider1 {
     position:absolute;
-    height: 10px;
-    width: 700px;
+    height: 30px;
+    width: 800px;
     top: 400px;
-    left:310px;
+    left:260px;
 }
 
 @-webkit-keyframes hover {
