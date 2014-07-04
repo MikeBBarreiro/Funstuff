@@ -1,16 +1,39 @@
-/*http://cdn.superbwallpapers.com/wallpapers/games/call-of-duty-world-at-war-3836-1280x800.jpg*/
+@import url(http://fonts.googleapis.com/css?family=Black+Ops+One);
 body { 
    background-color: black;
 }
 .Nuke {
+    z-index: 1;
     position: fixed;
-    top: 300px;
-    margin-left: 2px;
+    top: 620px;
+    margin-left: 600px;
 }
 .leftdiv {
+    z-index: 1;
     background-color:grey;
-    height: 1500px;
+    height: 1200px;
     width: 50px;
     position: relative;
     right: 8px;
+    top: -60px
+    background: linear-gradient(grey, black);
 }
+.footerdiv {
+    position: relative;
+    height: 60px;
+    width:1280px;
+    background-color: grey;
+    top: 610px;
+    left: -8px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+}
+
+.Callofduty.animated.bounceIn{
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+
