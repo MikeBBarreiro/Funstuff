@@ -2,38 +2,107 @@
 body { 
    background-color: black;
 }
-.Nuke {
-    z-index: 1;
-    position: fixed;
-    top: 620px;
-    margin-left: 600px;
-}
-.leftdiv {
-    z-index: 1;
-    background-color:grey;
-    height: 1200px;
-    width: 50px;
+.water {
     position: relative;
-    right: 8px;
-    top: -60px
-    background: linear-gradient(grey, black);
+    left: 435px;
+    top: 100px;
+    height:250px;
+    width: 300px;
+}
+.objblink {
+    z-index: 1;
+    position: relative;
+    height:400px;
+    width:700px;
+    left: -65px;
+    top:120px;
+}
+.Nuke2 {
+    position: relative;
+    z-index: 1;
+    left: 615px;
+    top: -30px;
+    height: 100px;
+    width: 50px;
+    
+}
+.Nuke {
+    position: relative;
+    top: 2px;
+    margin-left: 600px;
 }
 .footerdiv {
     position: relative;
     height: 60px;
     width:1280px;
     background-color: grey;
-    top: 610px;
+    top: 1000px;
     left: -8px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-}
-
+/*
 .Callofduty.animated.bounceIn{
     -webkit-animation-delay: 1.5s;
     animation-delay: 1.5s;
 }
+*/
+
+#overlay {
+    position: relative;
+}
+
+/*
+.Light{-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    width:50%; height:50%}
 
 
+img:hover{opacity:0}
+*/
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.objblink {
+-webkit-transition: all 100s ease-in-out;
+    -moz-transition: all 100s ease-in-out;
+    -o-transition: all 100s ease-in-out;
+    -ms-transition: all 100s ease-in-out;
+    transition: all 100s ease-in-out;
+    
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 100s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: blink;
+    -webkit-animation-timing-function: ease-in-out;
+    
+-moz-animation-direction: normal;
+    -moz-animation-duration: 100s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: blink;
+    -moz-animation-timing-function: ease-in-out;    
+}
