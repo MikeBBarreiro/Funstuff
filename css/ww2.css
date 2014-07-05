@@ -9,14 +9,14 @@ body {
 .titleheader {
     color: white;
     font-family: "Black ops one";
-    margin-left: 620px;
+    margin-left: 590px;
     margin-top:100px;
     position: relative;
     text-decoration: underline;
 }
 .water {
     position: relative;
-    left: 435px;
+    left: 410px;
     top: 100px;
     height:250px;
     width: 300px;
@@ -26,13 +26,13 @@ body {
     position: relative;
     height:400px;
     width:700px;
-    left: -70px;
+    left: -95px;
     top:120px;
 }
 .Nuke2 {
     position: relative;
     z-index: 1;
-    left: 615px;
+    left: 590px;
     top: 36px;
     height: 150px;
     width: 55px;
