@@ -2,6 +2,10 @@
 body { 
    background-color: black;
 }
+.bodyp {
+    text-align: center;
+    color: white;
+}
 .titleheader {
     color: white;
     font-family: "Black ops one";
