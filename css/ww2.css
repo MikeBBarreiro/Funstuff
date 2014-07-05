@@ -14,16 +14,17 @@ body {
     position: relative;
     height:400px;
     width:700px;
-    left: -65px;
+    left: -70px;
     top:120px;
 }
 .Nuke2 {
     position: relative;
     z-index: 1;
     left: 615px;
-    top: -30px;
-    height: 100px;
-    width: 50px;
+    top: 36px;
+    height: 150px;
+    width: 55px;
+    opacity: 0.1;
     
 }
 .Nuke {
@@ -106,3 +107,12 @@ img:hover{opacity:0}
     -moz-animation-name: blink;
     -moz-animation-timing-function: ease-in-out;    
 }
+.Nuke2.animated.fadeInUp{
+    -webkit-animation-delay: 5.5s;
+    animation-delay: 5.5s;
+    animation-duration: 100.5s;
+}
+
+    
+    
+    
