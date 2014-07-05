@@ -1,13 +1,35 @@
 @import url(http://fonts.googleapis.com/css?family=Black+Ops+One);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+
 body { 
    background-color: black;
 }
 .Germanfight {
     height: 400px;
     width: 550px;
-    margin-top: -200px;
-    margin-left: 20px; 
+    margin-top: -475px;
+    margin-left: 20px;
+    position: absolute;
 }
+.map {
+   height: 200px;
+    width: 300px;
+    position:absolute;
+    left: 950px;
+    margin-top: -120px;
+}
+#mapdiv {
+    height: 30px;
+    width:296px;
+    position: absolute;
+    margin-top: 80px;
+    left: 950px;
+    border: 2px solid white;
+    background-image:url(http://upload.wikimedia.org/wikipedia/commons/9/99/PanoBunker.jpg);
+    text-align: center;
+    font-family: "black ops one";
+}
+
 .bodyp {
     color: white;
 }
@@ -15,6 +37,17 @@ body {
     color: white;
     margin-left: 600px;
     margin-top:-15px
+}
+.bodyp3 {
+    color: white;
+    margin-top: -35px;
+    padding-left:650px;
+    padding-right: 350px;
+}
+.bodyp4 {
+    color: white;
+    margin-right: 325px;
+    margin-top: -15px;
 }
 .titleheader {
     color: white;
@@ -136,6 +169,53 @@ img:hover{opacity:0}
 }
 /***********************************************/
 
-    
+.bodyp, .bodyp2, .bodyp3, .bodyp4 {
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: yellow
+}   
+
+@-webkit-keyframes pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+a {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+a:hover, a:focus, a:active {
+  -webkit-animation-name: pulse-grow;
+  animation-name: pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+
+
+
+
+
+
     
     
