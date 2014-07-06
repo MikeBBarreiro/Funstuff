@@ -16,13 +16,13 @@ body {
     width: 300px;
     position:absolute;
     left: 950px;
-    margin-top: -200px;
+    margin-top: -220px;
 }
 #mapdiv {
     height: 30px;
     width:296px;
     position: absolute;
-    margin-top: px;
+    margin-top: -20px;
     left: 950px;
     border: 2px solid white;
     background-image:url(http://upload.wikimedia.org/wikipedia/commons/9/99/PanoBunker.jpg);
@@ -210,7 +210,28 @@ a:hover, a:focus, a:active {
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
-
+/******Country's*****/
+.USA {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left: 150px;
+    top: 410px;
+}
+.GB {
+    height:100px;
+    width:200px;
+    position: absolute;
+    left: 20px;
+    top: 270px
+}
+.SV {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left: 250px;
+    top: 270px;
+}
 
 
 
