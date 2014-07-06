@@ -232,8 +232,28 @@ a:hover, a:focus, a:active {
     left: 250px;
     top: 270px;
 }
-
-
+.EJ {
+    height:100px;
+    width: 200px;
+    position: absolute;
+    right: 250px;
+    top: 270px;
+}
+.Italy {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    top: 270px;
+}
+.Nazi {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    right: 150px;
+    top: 410px;
+    
+}
 
 
 
