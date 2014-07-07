@@ -7,7 +7,7 @@ body {
 .Germanfight {
     height: 400px;
     width: 550px;
-    margin-top: -560px;
+    margin-top: -740px;
     margin-left: 20px;
     position: absolute;
 }
@@ -15,15 +15,15 @@ body {
    height: 200px;
     width: 300px;
     position:absolute;
-    left: 950px;
-    margin-top: -220px;
+    left: 940px;
+    margin-top: -410px;
 }
 #mapdiv {
     height: 30px;
     width:296px;
     position: absolute;
-    margin-top: -20px;
-    left: 950px;
+    margin-top: -210px;
+    left: 940px;
     border: 2px solid white;
     background-image:url(http://upload.wikimedia.org/wikipedia/commons/9/99/PanoBunker.jpg);
     text-align: center;
@@ -48,6 +48,11 @@ body {
     color: white;
     margin-right: 325px;
     margin-top: -15px;
+}
+.bodyp5 {
+    color: white;
+    font-family: "lato";
+    top: -px;
 }
 .titleheader {
     color: white;
@@ -229,7 +234,7 @@ a:hover, a:focus, a:active {
     height: 100px;
     width: 200px;
     position: absolute;
-    left: 250px;
+    left: 240px;
     top: 270px;
 }
 .EJ {
