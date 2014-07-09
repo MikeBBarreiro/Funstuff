@@ -3,31 +3,33 @@
 
 body { 
    background-color: black;
+    font-family: 'lato';
 }
 .Germanfight {
     height: 400px;
     width: 550px;
     margin-top: -740px;
-    margin-left: 20px;
+    margin-left: -550px;
     position: absolute;
 }
 .map {
    height: 200px;
     width: 300px;
     position:absolute;
-    left: 940px;
+    left: 950px;
     margin-top: -410px;
 }
 #mapdiv {
     height: 30px;
     width:296px;
     position: absolute;
-    margin-top: -210px;
-    left: 940px;
+    margin-top: -528px;
+    left: 950px;
     border: 2px solid white;
-    background-image:url(http://upload.wikimedia.org/wikipedia/commons/9/99/PanoBunker.jpg);
     text-align: center;
     font-family: "black ops one";
+    background-color: #59B2FC;
+    
 }
 
 .bodyp {
@@ -174,9 +176,7 @@ img:hover{opacity:0}
 }
 /***********************************************/
 
-.bodyp, .bodyp2, .bodyp3, .bodyp4 .bodyp5 {
-    font-family: "Lato", sans-serif;
-}
+
 
 a {
     text-decoration: none;
