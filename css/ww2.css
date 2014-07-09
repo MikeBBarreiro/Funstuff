@@ -51,7 +51,7 @@ body {
 }
 .bodyp5 {
     color: white;
-    font-family: "lato";
+/*    font-family: "lato";*/
     top: -px;
 }
 .titleheader {
@@ -174,7 +174,7 @@ img:hover{opacity:0}
 }
 /***********************************************/
 
-.bodyp, .bodyp2, .bodyp3, .bodyp4 {
+.bodyp, .bodyp2, .bodyp3, .bodyp4 .bodyp5 {
     font-family: "Lato", sans-serif;
 }
 
